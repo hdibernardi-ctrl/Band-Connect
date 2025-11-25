@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "922226543812",
+    "project_id": "tesismolinadibernardi",
+    "storage_bucket": "tesismolinadibernardi.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922226543812:android:f5a3bf0de4cdbd18434d91",
+        "android_client_info": {
+          "package_name": "com.codigocorrecto.crud_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5cYLau5Llt9E2KE9EPAQsbj058XF-XL8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
