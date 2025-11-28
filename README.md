@@ -1,6 +1,6 @@
 # band_connect
 
-A new Flutter project.
+Es una aplicacion mobile  para bandas, locales y usuarios finales. Se realizo con flutter, firebase y visual. Los integrantes del proyecto son Hugo Di Bernardi Y Franco Molina.
 
 ## Getting Started
 
