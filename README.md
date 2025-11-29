@@ -2,7 +2,7 @@
 
 Es una aplicacion mobile  para bandas, locales y usuarios finales. Se realizo con flutter, firebase y visual. Los integrantes del proyecto son Hugo Di Bernardi Y Franco Molina.
 
-Profe tuvimos un monton de problemas con el github, los codisgos estan en la rama de feature-Login.
+Profe tuvimos un monton de problemas con el github, los codisgos estan en la rama de feature-Login, como ya esta meregeado no le va aparecer la rama, fijese en pull request y la va a encontrar en los casos cerrados.
 
 ## Getting Started
 
