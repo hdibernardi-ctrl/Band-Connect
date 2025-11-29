@@ -1,0 +1,56 @@
+name: band_connect
+description: "A new Flutter project."
+publish_to: 'none'
+
+# The following defines the version and build number for your application.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # --- Dependencias de Firebase y Estado (REQUERIDAS) ---
+  # Requerida para la autenticación
+  firebase_auth: ^4.15.2
+  
+  # **¡NUEVA ADICIÓN!** Resuelve los errores 'PromiseJsImpl' y 'handleThenable' en Web
+  # Es esencial para la interoperabilidad de Firebase Auth en plataformas Web.
+  firebase_auth_web: ^5.8.13 
+  
+  # **¡NUEVA ADICIÓN!** Proporciona los tipos de interoperabilidad con JavaScript (como PromiseJsImpl)
+  js: ^0.7.1 
+  
+  # Requerida para la inicialización de Firebase
+  firebase_core: ^2.24.2 
+  
+  # Requerida para ProfileService y la búsqueda de roles
+  cloud_firestore: ^4.13.6 
+  
+  # Requerida para ChangeNotifier y el sistema de inyección de dependencias (Providers)
+  provider: ^6.0.5 
+  
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.1
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
