@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import '../../Presentacion/providers/role_provider.dart'; // Necesario para cerrar sesión
+import '../../Presentacion/Providers/role_provider.dart'; // Necesario para cerrar sesión
 
 class VenueHomeScreen extends StatelessWidget {
   const VenueHomeScreen({super.key});
